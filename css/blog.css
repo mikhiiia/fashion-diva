@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #2f2e2e;
+}
+@font-face {
+    font-family: 'Helvetica-light-normal'; /* Имя шрифта */
+    src: url(/fonds/helvetica_light-normal.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Helveticaultralight';
+    src: url(/fonds/helveticaneuecyr-ultralight3.ttf);
+}
+@font-face{
+    font-family: 'Helvetica_w01_light';
+    src: url(/fonds/helvetica_w01_light.ttf);
+}
+@font-face {
+    font-family: 'Libre-Baskerville';
+    src: url(/fonds/libre-baskerville.ttf);
+}
+@font-face {
+    font-family: 'Sacramento';
+    src: url(/fonds/sacramento.ttf);
+}
+@font-face {
+    font-family: 'Belinda';
+    src: url(/fonds/Belinda-W00-Regular.ttf);
+}
+
+header{
+    text-align: center;
+}
+header img{
+    margin-top: 74px;
+}
+.header__menu{
+    padding: 86px 0 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    font-family: 'Helvetica_Light-Normal', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    margin: 0 50px;
+}
+a{
+    text-decoration: none;
+    color: #2f2e2e;
+}
+/* a:nth-child(2){
+    color: rgb(170, 170, 170);
+} */
+a:hover{
+    color: rgb(170, 170, 170);
+}
+
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.section__search{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section__search-text{
+    display: flex;
+}
+.section__search-all-posts, .section__search-life{
+    height: 80px;
+    width: 55px;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .section__search-all-posts span{
+    color: #2f2e2e;
+} */
+.section__landing{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.first-card, .second-card, .third-card, .fourth-card, .fifth-card, .sixth-card, .seventh-card{ 
+    width: 100%;
+}
+.section__landing-first-description, .section__landing-second-description, .section__landing-third-description, .section__landing-fourth-description, .section__landing-fifth-description, .section__landing-sixth-description, .section__landing-seventh-description{
+    padding: 28px 49px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.section__admin-description{
+    display: flex;
+    justify-content: space-between;
+}
+.section__admin-description img{
+    object-fit: contain;
+}
+.admin-description-date{
+    font-family: 'Helvetica';
+    font-size: 12px;
+    padding-left: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+}
+h2{
+    font-family: 'Libre-Baskerville';
+    font-size: 28px;
+    font-weight: 100;
+}
+.section__landing-first-description a:hover{
+    color: gray;
+    /* не работает */
+}
+.section__description{
+    padding: 23px 0 57px 0;
+}
+.section__description p{
+    font-family: 'Helvetica';
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 155%;
+    padding-top: 14px;
+}
+.section__line{
+    height: 1px;
+    background-color: rgba(204, 204, 204, 0.75);
+}
+.section__likes{
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section__likes span{
+    font-family: 'Helvetica';
+    font-size: 12px;
+    letter-spacing: 0.04em;
+}
+.likes__com-views :first-child{
+    padding-right: 20px;
+}
+.like{
+    display: flex;
+    align-items: center;
+}
+.like span{
+    padding-right: 5px;
+}
+.like span:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #000;
+    width: 100vw;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h2{
+    font-family: 'Libre-Baskerville';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+.footer__inputs{
+    display: flex;
+    padding: 25px 0 121px 0;
+}
+footer input{
+    width: 436px;
+    height: 44px;
+    background-color: #2F2E2E;
+    border: 1px solid #FFF;
+    color: #FFF;
+    margin-right: 15px;
+}
+footer button{
+    width: 150px;
+    height: 44px;
+    background-color: #2F2E2E;
+    border: 1px solid #FFF;
+    text-align: center;
+    color: #747474;
+}
+footer img{
+    width: 29px;
+    height: 29px;
+}
+footer a{
+    margin: 0 3px;
+}
+.footer__text-in-grey{
+    background-color: #2F2E2E;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+.footer__text-in-grey p, .footer__text-in-grey a{
+    color: #747474;
+    font-family: 'Helvetica_w01_light';
+    font-size: 13px;
+}
+.footer__text-in-grey a{
+    text-decoration: underline;
+}
+
+.chat-massage-button{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    right: 20px;
+    bottom: 5px;
+}
