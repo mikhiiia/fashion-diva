@@ -7,31 +7,31 @@
 }
 @font-face {
     font-family: 'Helvetica-light-normal'; /* Имя шрифта */
-    src: url(/fonds/helvetica_light-normal.ttf); /* Путь к файлу со шрифтом */
+    src: url("../fonds/helvetica_light-normal.ttf"); /* Путь к файлу со шрифтом */
    }
 @font-face {
     font-family: 'Helveticaultralight';
-    src: url(/fonds/helveticaneuecyr-ultralight3.ttf);
+    src: url("../fonds/helveticaneuecyr-ultralight3.ttf");
    }
 @font-face{
     font-family: 'Helvetica_w01_light';
-    src: url(/fonds/helvetica_w01_light.ttf);
+    src: url("../fonds/helvetica_w01_light.ttf");
 }
 @font-face {
     font-family: 'Libre-Baskerville';
-    src: url(/fonds/libre-baskerville.ttf);
+    src: url("../fonds/libre-baskerville.ttf");
    }
 @font-face {
     font-family: 'Sacramento';
-    src: url(/fonds/sacramento.ttf);
+    src: url("../fonds/sacramento.ttf");
    }
 @font-face {
     font-family: 'Belinda';
-    src: url(/fonds/Belinda-W00-Regular.ttf);
+    src: url("../fonds/Belinda-W00-Regular.ttf");
    }
 
 .bg{
-    background-image: url(../img/bg.png);
+    background-image: url("../img/bg.png");
     background-repeat: no-repeat;
     background-size: cover; /* фон занимает всю площадь блока */
     background-position: center;
@@ -111,14 +111,14 @@ h1{
     grid-column: 3;
 } */
 .section__read-the-blog{
-    background-image: url(../img/read-the-blog.png);
+    background-image: url("../img/read-the-blog.png");
     background-size: cover;
     background-position: center;
     grid-row: 1/4;
     grid-column: 1;
 }
 .section__contribute-to-the-blog{
-    background-image: url(../img/contribute-to-the-blog.png);
+    background-image: url("../img/contribute-to-the-blog.png");
     background-size: cover;
     background-position: center;
     grid-row: 3/6;
