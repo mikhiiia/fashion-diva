@@ -164,6 +164,10 @@ footer input{
     border: 1px solid #FFF;
     color: #FFF;
     margin-right: 15px;
+    padding-left: 20px;
+}
+footer input:hover{
+    border: 3px solid #FFF;
 }
 footer button{
     width: 150px;
@@ -172,6 +176,12 @@ footer button{
     border: 1px solid #FFF;
     text-align: center;
     color: #747474;
+}
+.footer button:hover{
+    background-color: #4168f2;
+    border: none;
+    transition: 0.9s;
+    color: #FFF;
 }
 footer img{
     width: 29px;

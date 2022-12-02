@@ -143,23 +143,29 @@ a:hover{
     justify-content: center;
     row-gap: 10px;
 }
-input{
+.content__forms-input{
     width: 100%;
     height: 35px;
-    border: 2px solid #747474;
+    border: 1px solid #747474;
     padding-left: 20px;
     font-family: 'Helvetica_w01_light' sans-serif;
     font-size: 14px;
     background-color: #F7FCFF;
 }
+.content__forms-input:hover{
+    border: 3px solid #747474;
+}
 textarea{
     width: 100%;
     height: 145px;
-    border: 2px solid #747474;
+    border: 1px solid #747474;
     padding: 10px 0 0 20px;
     font-family: 'Helvetica_w01_light' sans-serif;
     font-size: 14px;
     background-color: #F7FCFF;
+}
+textarea:hover{
+    border: 3px solid #747474;
 }
 /* .content__forms:last-child{
     display: flex;
@@ -176,6 +182,11 @@ textarea{
     /* font-family: 'Helvetica_w01_light' sans-serif; */
     font-size: 14px;
     align-self: flex-end;
+}
+.content__forms-button:hover{
+    background-color: #4168f2;
+    border: none;
+    transition: 0.5s;
 }
 
 footer{
@@ -204,6 +215,10 @@ footer input{
     border: 1px solid #FFF;
     color: #FFF;
     margin-right: 15px;
+    padding-left: 20px;
+}
+footer input:hover{
+    border: 3px solid #FFF;
 }
 footer button{
     width: 150px;
@@ -212,6 +227,12 @@ footer button{
     border: 1px solid #FFF;
     text-align: center;
     color: #747474;
+}
+.footer button:hover{
+    background-color: #4168f2;
+    border: none;
+    transition: 0.9s;
+    color: #FFF;
 }
 footer img{
     width: 29px;
