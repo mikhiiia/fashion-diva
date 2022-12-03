@@ -78,6 +78,9 @@ a:hover{
 .section__search-text{
     display: flex;
 }
+.section__search-text span:hover{
+    color: rgb(170, 170, 170);
+}
 .section__search-all-posts, .section__search-life{
     height: 80px;
     width: 55px;
@@ -129,6 +132,9 @@ h2{
 }
 .section__description{
     padding: 23px 0 57px 0;
+}
+.section__description h2:hover, .section__description p:hover{
+    color: rgb(170, 170, 170);
 }
 .section__description p{
     font-family: 'Helvetica';
@@ -215,6 +221,11 @@ footer button{
 footer img{
     width: 29px;
     height: 29px;
+}
+.footer img:hover{
+    width: 25px;
+    height: 25px;
+    margin: 0 2px;
 }
 footer a{
     margin: 0 3px;

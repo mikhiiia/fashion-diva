@@ -137,6 +137,9 @@ a:hover{
     width: 25px;
     height: 25px;
 }
+.content__text-social-networks img:hover{
+    box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.5);
+}
 
 footer{
     background-color: #000;
@@ -186,6 +189,11 @@ footer button{
 footer img{
     width: 29px;
     height: 29px;
+}
+.footer img:hover{
+    width: 25px;
+    height: 25px;
+    margin: 0 2px;
 }
 footer a{
     margin: 0 3px;

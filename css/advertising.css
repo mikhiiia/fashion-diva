@@ -231,6 +231,11 @@ footer img{
     width: 29px;
     height: 29px;
 }
+.footer img:hover{
+    width: 25px;
+    height: 25px;
+    margin: 0 2px;
+}
 footer a{
     margin: 0 3px;
 }

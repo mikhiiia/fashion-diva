@@ -321,6 +321,11 @@ footer img{
     width: 29px;
     height: 29px;
 }
+.footer img:hover{
+    width: 25px;
+    height: 25px;
+    margin: 0 2px;
+}
 footer a{
     margin: 0 3px;
 }
@@ -348,11 +353,17 @@ footer a{
     right: 40px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .fixed-social-networks img{
     width: 30px;
     height: 30px;
     object-fit: cover;
+}
+.fixed-social-networks img:hover{
+    width: 25px;
+    height: 25px;
+    margin: 2.5px 0;
 }
 
 .fixed-button{
@@ -361,12 +372,16 @@ footer a{
     height: 40px;
     left: 20px;
     bottom: 5px;
-    background: #4168F2;
+    background-color:  #4168F2;
     border: none;
     border-radius: 10px 10px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.fixed-button:hover{
+    transition: 1.5s;
+    background: linear-gradient(180deg, #4168F2 51.04%, #46F046 100%);
 }
 .fixed-button span{
     font-family: 'Helvetica_w01_light' sans-serif;
