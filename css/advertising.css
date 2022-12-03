@@ -103,7 +103,7 @@ a:hover{
 }
 .content__text{
     text-align: center;
-    width: 75%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,7 +144,7 @@ a:hover{
     border: 1px solid #747474;
     padding-left: 20px;
     font-family: 'Helvetica_w01_light';
-    font-size: 14px;
+    font-size: 15px;
 }
 .content__forms-input:hover{
     border: 3px solid #747474;
@@ -155,7 +155,7 @@ textarea{
     border: 1px solid #747474;
     padding: 10px 0 0 20px;
     font-family: 'Helvetica_w01_light' sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 textarea:hover{
     border: 3px solid #747474;
@@ -173,7 +173,7 @@ textarea:hover{
     text-align: center;
     color: #FFF;
     font-family: 'Helvetica_w01_light';
-    font-size: 14px;
+    font-size: 15px;
     align-self: flex-end;
 }
 .content__forms-button:hover{
