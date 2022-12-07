@@ -108,6 +108,7 @@ a:hover{
 .section__admin-description{
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .section__admin-description img{
     object-fit: contain;
@@ -168,6 +169,9 @@ h2{
 }
 .like span{
     padding-right: 5px;
+}
+.like img{
+    cursor: pointer;
 }
 .like span:hover{
     text-decoration: underline;
