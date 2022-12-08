@@ -59,9 +59,6 @@ a{
     text-decoration: none;
     color: #2f2e2e;
 }
-/* a:nth-child(2){
-    color: rgb(170, 170, 170);
-} */
 a:hover{
     color: rgb(170, 170, 170);
 }
@@ -90,12 +87,11 @@ a:hover{
     align-items: center;
     justify-content: center;
 }
-/* .section__search-all-posts span{
-    color: #2f2e2e;
-} */
 .section__landing{
-    margin: 0 auto;
     max-width: 100%;
+}
+.section__landing--m{
+    margin: 0 auto;
 }
 .first-card, .second-card, .third-card, .fourth-card, .fifth-card, .sixth-card, .seventh-card{ 
     width: 100%;
