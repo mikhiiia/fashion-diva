@@ -303,6 +303,7 @@ footer input{
     color: #FFF;
     margin-right: 15px;
     padding-left: 20px;
+    outline: none;
 }
 footer input:hover{
     border: 3px solid #FFF;
@@ -384,7 +385,7 @@ footer a{
     align-items: center;
 }
 .fixed-button:active{
-    transition: 1.5s; /* ?? */
+    /* transition: 1.5s; ?? */
     background: linear-gradient(180deg, #4168F2 51.04%, #46F046 100%);
 }
 .fixed-button span{
@@ -491,9 +492,9 @@ footer a{
         display: flex;
         justify-content: center;
     }
-    header img:first-child{
-        justify-self: center; /* ?? */
-    }
+    /* header img:first-child{
+        justify-self: center;  ?? 
+    } */
     .header__menu{
         display: none;
     }

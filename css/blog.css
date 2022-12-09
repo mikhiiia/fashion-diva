@@ -123,10 +123,6 @@ h2{
     font-size: 28px;
     font-weight: 100;
 }
-.section__landing-first-description a:hover{
-    color: gray;
-    /* не работает */
-}
 .section__description{
     padding: 23px 0 57px 0;
 }
@@ -200,6 +196,7 @@ footer input{
     color: #FFF;
     margin-right: 15px;
     padding-left: 20px;
+    outline: none;
 }
 footer input:hover{
     border: 3px solid #FFF;

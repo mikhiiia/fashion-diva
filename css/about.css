@@ -167,6 +167,7 @@ footer input{
     color: #FFF;
     margin-right: 15px;
     padding-left: 20px;
+    outline: none;
 }
 footer input:hover{
     border: 3px solid #FFF;
