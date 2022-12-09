@@ -42,7 +42,7 @@ html{
     height: 100vh;
 }
 .container{
-    max-width: 60%;
+    width: 60%;
     margin: 0 auto;
 }
 header{
@@ -87,7 +87,8 @@ a:hover, a:active{
 h1{
     margin: 0 auto;
     width: 36%;
-    padding-top: 175px;
+    /* padding-top: 175px; */
+    padding-top: 10%;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Libre-Baskerville';
@@ -283,6 +284,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 footer h2{
     font-family: 'Libre-Baskerville';
@@ -291,7 +293,7 @@ footer h2{
     color: #FFFFFF;
     padding-top: 60px;
 }
-.footer__inputs{
+.footer__inputs form{
     display: flex;
     padding: 25px 0 121px 0;
 }
@@ -402,15 +404,15 @@ footer a{
     right: 20px;
     bottom: 5px;
 }
-@media (min-width: 1601px) {
+/* @media (min-width: 1601px) {
     h1{
         font-size: 80px;
     }
-}
+} */
 @media (max-width: 1057px) {
-    h1{
+    /* h1{
         font-size: 55px;
-    }
+    } */
     .content__first, .content__second, .content__third, .content__fourth{
         flex-direction: column;
         border: none;
@@ -446,6 +448,11 @@ footer a{
     }
     .fixed-social-networks{
         display: none;
+    }
+}
+@media (max-width: 925px) {
+    h1{
+        font-size: 60px;
     }
 }
 @media (max-width: 880px) {
@@ -490,11 +497,9 @@ footer a{
 @media (max-width: 768px) {
     header{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 0 30px;
     }
-    /* header img:first-child{
-        justify-self: center;  ?? 
-    } */
     .header__menu{
         display: none;
     }
@@ -502,7 +507,55 @@ footer a{
         display: block;
         width: 25px;
         height: 25px;
-        margin-right: 40px;
         cursor: pointer;
+    }
+    h1{
+        width: 50%;
+        /* font-size: 50px; */
+        padding-top: 25%;
+    }
+    .footer__inputs{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__inputs form{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding: 25px 0 62px 0;
+        width: 90%;
+        /* padding: 25px 0 121px 0; */
+    }
+    footer input{
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .fixed-button{
+        display: none;
+    }
+    .chat-massage-button{
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
+    h1{
+        width: 78%;
+        font-size: 70px;
+    }
+    .section{
+        width: 100%;
+    }
+}
+@media (max-width: 420px) {
+    h1{
+        font-size: 60px;
+        padding-top: 35%;
     }
 }
