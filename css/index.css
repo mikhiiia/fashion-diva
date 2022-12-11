@@ -181,6 +181,10 @@ h1{
     border: none;
     transition: 0.9s;
 }
+.section__btn-grey:active{
+    background-color: #4168f2;
+    border: none;
+}
 
 .content{
     background-color: #f7fcff;
@@ -404,15 +408,8 @@ footer a{
     right: 20px;
     bottom: 5px;
 }
-/* @media (min-width: 1601px) {
-    h1{
-        font-size: 80px;
-    }
-} */
+
 @media (max-width: 1057px) {
-    /* h1{
-        font-size: 55px;
-    } */
     .content__first, .content__second, .content__third, .content__fourth{
         flex-direction: column;
         border: none;
@@ -452,7 +449,9 @@ footer a{
 }
 @media (max-width: 925px) {
     h1{
-        font-size: 60px;
+        font-size: 75px;
+        padding-top: 20%;
+        width: 40%;
     }
 }
 @media (max-width: 880px) {
@@ -511,7 +510,6 @@ footer a{
     }
     h1{
         width: 50%;
-        /* font-size: 50px; */
         padding-top: 25%;
     }
     .footer__inputs{
@@ -557,5 +555,16 @@ footer a{
     h1{
         font-size: 60px;
         padding-top: 35%;
+    }
+}
+@media (max-height: 500px) {
+    h1{
+        font-size: 40px;
+    }
+}
+@media (min-height: 1360px) {
+    h1{
+        font-size: 90px;
+        padding-top: 17%;
     }
 }
