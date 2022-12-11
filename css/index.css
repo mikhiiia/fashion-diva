@@ -263,6 +263,10 @@ h2{
     font-size: 12px;
     letter-spacing: 0.04em;
 }
+.likes__com-views{
+    display: flex;
+    flex-wrap: wrap;
+}
 .likes__com-views :first-child{
     padding-right: 20px;
 }
@@ -523,7 +527,6 @@ footer a{
         align-items: center; 
         padding: 25px 0 62px 0;
         width: 90%;
-        /* padding: 25px 0 121px 0; */
     }
     footer input{
         margin-right: 0;
@@ -541,7 +544,7 @@ footer a{
 }
 @media (max-width: 600px) {
     .container{
-        width: 100%;
+        width: 95%;
     }
     h1{
         width: 78%;
