@@ -42,7 +42,7 @@ html{
     height: 50vh;
 }
 .container{
-    max-width: 57.5%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,6 +79,9 @@ a{
 }
 a:hover{
     color: rgb(170, 170, 170);
+}
+.burger{
+    display: none;
 }
 
 .content{
@@ -223,4 +226,52 @@ footer a{
     width: 60px;
     right: 20px;
     bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .bg{
+        height: 25vh;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    .header__menu{
+        display: none;
+    }
+    .burger{
+        display: block;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+    .footer__inputs{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__inputs form{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding: 25px 0 62px 0;
+        width: 90%;
+    }
+    footer input{
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .chat-massage-button{
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .container{
+        width: 95%;
+    }
 }
