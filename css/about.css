@@ -275,3 +275,8 @@ footer a{
         width: 95%;
     }
 }
+@media (min-height: 1100px) {
+    .bg{
+        height: 25vh;
+    }
+}
