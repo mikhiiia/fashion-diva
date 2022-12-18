@@ -90,6 +90,8 @@ a:hover{
 }
 .first-card, .second-card, .third-card, .fourth-card, .fifth-card, .sixth-card, .seventh-card{ 
     width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 .section__landing-first-description, .section__landing-second-description, .section__landing-third-description, .section__landing-fourth-description, .section__landing-fifth-description, .section__landing-sixth-description, .section__landing-seventh-description{
     padding: 28px 49px;
@@ -267,6 +269,11 @@ footer a{
     }
     .section{
         padding: 50px 0;
+    }
+    .first-card, .second-card, .third-card, .fourth-card, .fifth-card, .sixth-card, .seventh-card{ 
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
     }
     .footer__inputs{
         width: 100%;
