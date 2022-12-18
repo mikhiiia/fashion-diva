@@ -12,10 +12,6 @@ html{
     font-family: 'Helvetica-light-normal'; /* Имя шрифта */
     src: url("../fonds/helvetica_light-normal.ttf"); /* Путь к файлу со шрифтом */
 }
-@font-face {
-    font-family: 'Helveticaultralight';
-    src: url("../fonds/helveticaneuecyr-ultralight3.ttf");
-}
 @font-face{
     font-family: 'Helvetica_w01_light';
     src: url("../fonds/helvetica_w01_light.ttf");
@@ -23,10 +19,6 @@ html{
 @font-face {
     font-family: 'Libre-Baskerville';
     src: url("../fonds/libre-baskerville.ttf");
-}
-@font-face {
-    font-family: 'Sacramento';
-    src: url("../fonds/sacramento.ttf");
 }
 @font-face {
     font-family: 'Belinda';
