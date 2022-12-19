@@ -147,7 +147,7 @@ textarea{
     height: 126px;
     border: 1px solid #747474;
     padding: 10px 0 0 20px;
-    font-family: 'Helvetica_w01_light' sans-serif;
+    font-family: 'Helvetica_w01_light';
     font-size: 15px;
 }
 textarea:hover{
