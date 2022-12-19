@@ -11,14 +11,18 @@
     <div class="bg">
         <header class="header header--m">
             <a href="index.html"><img src="img/logo.png" alt="logo" class="header__logo"></a>
-            <ul class="header__menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>                    
-                <li><a href="advertising.html">Advertising</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <img src="img/burger.png" alt="burger" class="burger">
+            <nav class="header__body">
+                <ul class="header__menu">
+                    <li><a href="index.html" class="burger-menu">Home</a></li>
+                    <li><a href="blog.html" class="burger-menu">Blog</a></li>
+                    <li><a href="about.html" class="burger-menu">About</a></li>                    
+                    <li><a href="advertising.html" class="burger-menu">Advertising</a></li>
+                    <li><a href="contact.html" class="burger-menu">Contact</a></li>
+                </ul>
+                <div class="burger-button">
+                    <img src="img/burger.png" alt="burger" class="burger">
+                </div>
+            </nav>
         </header>
     </div>
     
@@ -62,5 +66,7 @@
     </footer>
 
     <a href="#"><img src="img/bluefixed.png" alt="" class="chat-massage-button"></a>
+
+    <script src="/js/burger.js"></script>
 </body>
 </html>
