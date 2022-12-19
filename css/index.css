@@ -53,7 +53,7 @@ header img{
     align-items: center;
 }
 li{
-    font-family: 'Helvetica_Light-Normal';
+    font-family: 'Helvetica_Light-Normal', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -390,7 +390,7 @@ footer a{
     background: linear-gradient(180deg, #4168F2 51.04%, #46F046 100%);
 }
 .fixed-button span{
-    font-family: 'Helvetica_w01_light';
+    font-family: 'Helvetica_w01_light' sans-serif;
     font-size: 15px;
     color: #FFF;
     text-align: center;
