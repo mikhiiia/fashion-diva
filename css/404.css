@@ -66,10 +66,12 @@ a:hover, a:active{
 }
 
 .content{
-    padding: 60px 0 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.content--p{
+    padding: 60px 0 45px;
 }
 .content__error{
     width: 100%;
